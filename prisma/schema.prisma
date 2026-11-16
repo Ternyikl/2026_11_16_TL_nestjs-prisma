@@ -24,5 +24,12 @@ model Drinks{
   name String @unique
   alcoholic Boolean
   price Int
-  size String
+  size Sizes
+}
+
+enum Sizes {
+  S
+  M
+  L
+  XL
 }
