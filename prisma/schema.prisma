@@ -17,6 +17,7 @@ model Cake {
   name String @unique
   price Int
   size Int
+  endDate DateTime
 }
 
 model Drinks{
